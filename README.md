@@ -1,7 +1,7 @@
 pfaocle.co.uk
 ===
 
-Basic, informational page for [pfaocle.co.uk], hosted with [surge.sh].
+Basic, informational page for [pfaocle.co.uk], hosted with [Netlify].
 
 [pfaocle.co.uk]: http://pfaocle.co.uk/
-[surge.sh]: https://surge.sh/
+[Netlify]: https://www.netlify.com/
