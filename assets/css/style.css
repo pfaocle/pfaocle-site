@@ -1,17 +1,33 @@
 body {
   font-family: Univers, Calibri, "Gill Sans", "Gill Sans MT", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
-  padding: 10%;
+  padding: 5%;
   color: #223;
   background-color: #f7fafc;
 }
 
+@media only screen and (min-width: 360px) {
+  body {
+    padding: 10%;
+  }
+}
+
 p {
-  margin-left: .8em;
+  margin-left: .4em;
+  line-height: 1.4em;
+  max-width: 600px;
+}
+
+h2 {
+  color: #a0a0a0;
+  font-weight: normal;
+  font-size: 1.4em;
+  margin: 1em 0 .6em 0;
 }
 
 ul {
   font-size: .7em;
+  padding: 0 40px 0 0;
 }
 
 li {
@@ -32,4 +48,23 @@ a:visited {
   display: flex;
   align-items: flex-start;
   flex-flow: row wrap;
+}
+
+.certifications {
+  margin: 0 auto;
+}
+
+.certifications img {
+  width: 200px;
+}
+
+@media only screen and (min-width: 360px) {
+  .certifications {
+    text-align: left;
+  }
+
+  .certifications img {
+    width: 100px;
+    padding: 4px;
+  }
 }
