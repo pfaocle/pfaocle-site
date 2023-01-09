@@ -19,7 +19,7 @@ p {
 }
 
 h2 {
-  color: #a0a0a0;
+  color: #848484;
   font-weight: normal;
   font-size: 1.4em;
   margin: 1em 0 .6em 0;
@@ -37,11 +37,12 @@ li {
 
 a {
   text-decoration: none;
-  color: #3975af;
+  color: rgb(3 105 161);
 }
 
-a:visited {
-  color:#90abc8;
+a:hover {
+  color:rgb(14 165 233);
+  opacity: .75;
 }
 
 .container {
