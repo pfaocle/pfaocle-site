@@ -5,5 +5,13 @@ pfaocle.co.uk
 
 Basic, informational page for [pfaocle.co.uk], hosted with [Netlify].
 
+## Running locally
+
+```shell
+# Run Node.js http-server module, then visit:
+# http://127.0.0.1:9999/
+npx http-server . -o -p 9999
+```
+
 [pfaocle.co.uk]: https://pfaocle.co.uk/
 [Netlify]: https://www.netlify.com/
