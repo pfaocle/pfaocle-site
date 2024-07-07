@@ -15,6 +15,9 @@ body {
 p {
   margin-left: .4em;
   line-height: 1.4em;
+}
+
+p.narrow {
   max-width: 600px;
 }
 
