@@ -9,6 +9,8 @@ export default async (request, context) => {
     }
 
     const htmlOnlyHeaders = [
+      'content-security-policy',
+      'content-security-policy-report-only',
       'x-xss-protection',
       'x-frame-options',
       // https://webhint.io/docs/user-guide/hints/hint-no-html-only-headers
