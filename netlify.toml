@@ -3,7 +3,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy: default-src 'self'; frame-ancestors 'none'
+    Content-Security-Policy = "default-src 'self'; frame-ancestors 'none'"
     Referrer-Policy = "no-referrer-when-downgrade"
     X-Content-Type-Options = "nosniff"
     X-XSS-Protection = "1; mode=block"
