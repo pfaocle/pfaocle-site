@@ -20,3 +20,7 @@
   for = "/"
   [headers.values]
     Cache-Control = "public, max-age=86400"
+
+[[edge_functions]]
+  path = "/*"
+  function = "strip-non-html-headers"
