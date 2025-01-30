@@ -33,3 +33,5 @@ export default async (request, context) => {
 
     return response;
   };
+
+export const config = { path: "/", onError: "bypass" };
