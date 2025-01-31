@@ -73,3 +73,12 @@ a:hover {
     padding: 4px;
   }
 }
+
+.items-center {
+  display: flex;
+  align-items: center;
+}
+
+.items-center svg {
+  margin-right: .5rem;
+}
