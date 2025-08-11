@@ -1,6 +1,9 @@
 // Strip non-HTML headers from response.
 // See https://dev.to/philw_/using-a-netlify-edge-worker-to-cut-down-on-header-bloat-by-removing-html-only-headers-from-your-static-assets-3nh9
-export default async (request, context) => {
+
+import type { Context, Config } from "@netlify/edge-functions";
+
+export default async (request: Request, context: Context) => {
     const response = await context.next();
 
     const contentType = response.headers.get('content-type');
@@ -34,4 +37,4 @@ export default async (request, context) => {
     return response;
   };
 
-export const config = { path: "/", onError: "bypass" };
+export const config: Config = { path: "/", onError: "bypass" };
